@@ -53,3 +53,15 @@ h2 {
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
+
+#dub-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#dub-image {
+    width: 50%;
+    height: auto;
+    float: left;
+}

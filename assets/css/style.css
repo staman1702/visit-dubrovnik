@@ -10,7 +10,10 @@ body {
     font-family: 'Alegreya', sans-serif;
     font-weight: 300;
     color: #3a3a3a;
+    background-color: aqua;
 }
+
+/*headings and logo */
 
 h1,
 h2 {
@@ -24,6 +27,8 @@ h2 {
     float: left;
     font-size: 300%;
 }
+
+/* navigation links */
 
 #menu {
     font-size: 120%;
@@ -54,14 +59,52 @@ h2 {
     border-bottom: 1px solid #3a3a3a;
 }
 
-#dub-outer {
+/* dub-intro */
+
+#dub-intro {
     height: 600px;
     width: 100%;
     overflow: hidden;
 }
 
-#dub-image {
+#left-intro {
+    padding-top: 20px;
     width: 50%;
-    height: auto;
     float: left;
+}
+
+#right-intro {
+    padding-top: 20px;
+    width: 50%;
+    float: right;
+}
+
+hr {
+    border-top: 1px solid #CC5500;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.right-intro-heading {
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+#circle-container {
+    width: 500px;
+    height: 500px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#circle-cover-bg {
+    background: url('../images/dub-left.jpeg') no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
 }

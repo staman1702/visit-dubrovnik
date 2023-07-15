@@ -143,12 +143,16 @@ hr {
 
 #tours div {
     color: #fafafa;
-    background-color: rgba(0, 0, 0, 0.6);
     width: 33.33%;
     height: 300px;
     float: left;
-    padding: 30px 0 0 10px;
+    padding: 40px 0 0 10px;
     text-align: center;
     border: 3px solid white;
     box-sizing: border-box;
+}
+
+.zoombox:hover {
+    transition: transform .2s;
+    transform: scale(1.25);
 }

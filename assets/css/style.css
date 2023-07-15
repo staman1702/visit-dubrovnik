@@ -108,3 +108,29 @@ hr {
     height: 100%;
     border-radius: 50%;
 }
+
+/* dub-about */
+
+#dub-about {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#walls {
+    background-image: url('../images/old-town-750.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#kayak {
+    background-image: url('../images/kayak-500.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#hike {
+    background-image: url('../images/hike-500.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}

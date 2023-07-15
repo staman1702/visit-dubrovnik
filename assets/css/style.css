@@ -121,16 +121,34 @@ hr {
     background-image: url('../images/old-town-750.png');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    width: 100%;
 }
 
 #kayak {
     background-image: url('../images/kayak-500.png');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    width: 100%;
 }
 
 #hike {
     background-image: url('../images/hike-500.png');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+#tours div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, 1);
+    width: 33.33%;
+    height: 300px;
+    float: left;
+    padding: 30px 0 0 10px;
+    text-align: center;
+    border: 3px solid white;
+    box-sizing: border-box;
 }

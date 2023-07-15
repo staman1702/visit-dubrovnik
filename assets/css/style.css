@@ -137,13 +137,13 @@ hr {
     background-image: url('../images/hike-500.png');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center bottom;
     width: 100%;
 }
 
 #tours div {
     color: #fafafa;
-    background-color: rgba(0, 0, 0, 1);
+    background-color: rgba(0, 0, 0, 0.6);
     width: 33.33%;
     height: 300px;
     float: left;

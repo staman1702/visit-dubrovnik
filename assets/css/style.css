@@ -117,8 +117,12 @@ hr {
     overflow: hidden;
 }
 
+#tours {
+    padding-top: 40px;
+}
+
 #walls {
-    background-image: url('../images/old-town-750.png');
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/old-town-750.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -126,7 +130,7 @@ hr {
 }
 
 #kayak {
-    background-image: url('../images/kayak-500.png');
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/kayak-500.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -134,11 +138,12 @@ hr {
 }
 
 #hike {
-    background-image: url('../images/hike-500.png');
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/hike-500.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center bottom;
     width: 100%;
+
 }
 
 #tours div {

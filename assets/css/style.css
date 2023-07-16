@@ -112,17 +112,18 @@ hr {
 /* dub-about */
 
 #dub-about {
-    height: 600px;
+    height: 800px;
     width: 100%;
     overflow: hidden;
 }
 
 #tours {
-    padding-top: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 #walls {
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/old-town-750.png');
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .4)), url('../images/old-town-750.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -130,7 +131,7 @@ hr {
 }
 
 #kayak {
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/kayak-500.png');
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .4)), url('../images/kayak-500.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -138,7 +139,7 @@ hr {
 }
 
 #hike {
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/hike-500.png');
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .4)), url('../images/hike-500.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center bottom;
@@ -160,4 +161,32 @@ hr {
 .zoombox:hover {
     transition: transform .2s;
     transform: scale(1.25);
+}
+
+/* table */
+
+#times {
+    padding: 40px;
+}
+
+table {
+    width: 50%;
+    color: #fafafa;
+}
+
+table,
+th,
+td {
+    border: 1px solid #632900dc;
+}
+
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #cc5500dc;
+}
+
+table td {
+    padding-left: 8px;
+    background-color: rgba(204, 85, 0, .6);
 }

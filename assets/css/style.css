@@ -163,6 +163,17 @@ hr {
     transform: scale(1.25);
 }
 
+.zoombox:hover #infotext {
+    display: block;
+}
+
+#infotext {
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    display: none;
+}
+
 /* table */
 
 #times {

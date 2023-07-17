@@ -97,7 +97,7 @@ hr {
     padding-left: 20px;
 }
 
-.intro-heading {
+.contact-heading {
     line-height: 20px;
     margin: 0px 20px;
     clear: both;
@@ -283,4 +283,27 @@ textarea {
 #photos>img {
     width: 100%;
     margin-bottom: 5px;
+}
+
+/* Media */
+
+/* For larger to medium screens size from 1200px wide and down */
+@media screen and (max-width: 1200px) {
+
+    #dub-intro {
+        width: 65%;
+        height: 1200px;
+        margin: 0;
+    }
+
+    #left-intro,
+    #right-intro {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    hr {
+        display: none;
+    }
 }

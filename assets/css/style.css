@@ -61,19 +61,19 @@ h2 {
 
 /* dub-intro */
 
-#dub-intro {
+#dub-intro, #dub-form {
     height: 600px;
     width: 100%;
     overflow: hidden;
 }
 
-.left-intro {
+#left-intro, #left-contact {
     padding-top: 20px;
     width: 50%;
     float: left;
 }
 
-.right-intro {
+#right-intro, #right-contact {
     padding-top: 20px;
     width: 50%;
     float: right;

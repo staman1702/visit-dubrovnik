@@ -89,11 +89,12 @@ hr {
 }
 
 .right-intro-heading {
-    width: 60%;
+    width: 70%;
     float: left;
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
+    padding-left: 20px;
 }
 
 .intro-heading {
@@ -190,7 +191,7 @@ hr {
 }
 
 table {
-    width: 50%;
+    width: 100%;
     color: #fafafa;
 }
 

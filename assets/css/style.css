@@ -61,19 +61,22 @@ h2 {
 
 /* dub-intro */
 
-#dub-intro, #dub-form {
+#dub-intro,
+#dub-form {
     height: 600px;
     width: 100%;
     overflow: hidden;
 }
 
-#left-intro, #left-contact {
+#left-intro,
+#left-contact {
     padding-top: 20px;
     width: 50%;
     float: left;
 }
 
-#right-intro, #right-contact {
+#right-intro,
+#right-contact {
     padding-top: 20px;
     width: 50%;
     float: right;
@@ -230,7 +233,12 @@ footer {
     background: #CC5500;
 }
 
-/* signup form */
+/* contact form */
+
+textarea,
+input {
+    font-family: 'Alegreya', sans-serif;
+}
 
 input[type=submit] {
     margin: 20px;
@@ -247,4 +255,16 @@ input[type=email] {
     width: 30%;
     padding-left: 10px;
     margin: 0 auto;
+}
+
+textarea {
+    height: 150px;
+    width: 30%;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin: 0 auto;
+}
+
+.block-label {
+    display: block;
 }

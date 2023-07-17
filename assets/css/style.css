@@ -292,7 +292,13 @@ textarea {
 
     #dub-intro {
         width: 65%;
-        height: 1200px;
+        height: 800px;
+        margin: 0;
+    }
+
+    #dub-explore {
+        width: 100%;
+        height: 1600px;
         margin: 0;
     }
 
@@ -303,7 +309,56 @@ textarea {
         padding: 0;
     }
 
+    #tours>div {
+        width: 60%;
+        margin-left: 10%;
+        float: left;
+        padding: 0;
+    }
+
     hr {
         display: none;
     }
+}
+
+/* For medium screen sizes from 950px wide and down */
+@media screen and (max-width: 950px) {
+
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    #dub-intro {
+        width: 90%;
+        height: 800px;
+        margin: 0 auto;
+    }
+
+    .right-intro-heading {
+        width: inherit;
+    }
+
+    .right-intro-heading h1,
+    #times h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .right-intro-heading p,
+    .intro-heading p {
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    #tours>div {
+        width: 60%;
+        margin-left: 20%;
+        float: left;
+        padding: 0;
+    }
+
 }

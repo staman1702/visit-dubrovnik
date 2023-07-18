@@ -1,5 +1,3 @@
-![DUB vis](https://i.ibb.co/Q8tyqMH/Screenshot-15.png)
-
 <h1>VISIT DUBROVNIK</h1>
 
 Visit Dubrovnik is a student-made website that helps you learn about and hopefully visit the pearl of Adriatic - city of Dubrovnik! it is built as milestone assignment with the Code Institute. Goal is...

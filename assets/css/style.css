@@ -70,7 +70,7 @@ h2 {
 
 #left-intro,
 #left-contact {
-    padding-top: 20px;    
+    padding-top: 20px;
     width: 50%;
     float: left;
 }
@@ -316,6 +316,11 @@ textarea {
         padding: 0;
     }
 
+    .right-intro-heading {
+
+        padding: 0;
+    }
+
     .right-intro-heading>hr {
         display: none;
     }
@@ -403,5 +408,18 @@ textarea {
     #photos>img {
         width: 100%;
         margin-bottom: 2px;
+    }
+
+    #circle-container {
+        width: 250px;
+        height: 250px;
+    }
+
+    #dub-explore {
+        height: 1800px;
+    }
+
+    #tours div {
+        height: 380px;
     }
 }

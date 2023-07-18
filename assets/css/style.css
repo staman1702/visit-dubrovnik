@@ -410,6 +410,11 @@ textarea {
         margin-bottom: 2px;
     }
 
+    #dub-intro,
+    #dub-form {
+        height: 550px;
+    }
+
     #circle-container {
         width: 250px;
         height: 250px;

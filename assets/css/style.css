@@ -31,6 +31,14 @@ h2 {
     color: #CC5500;
 }
 
+h2 {
+    padding: 10px 0;
+}
+
+h3 {
+    text-transform: uppercase;
+}
+
 #logo {
     float: left;
     font-size: 400%;
@@ -103,6 +111,11 @@ hr {
     clear: both;
     margin-bottom: 50px;
     padding-left: 20px;
+}
+
+.p-intro {
+    font-size: 110%;
+    padding-bottom: 25px;
 }
 
 .contact-heading {
@@ -369,11 +382,15 @@ textarea {
         padding-top: 40px;
     }
 
-    .right-intro-heading p,
     .contact-heading p,
     .intro-heading p {
         text-align: center;
         padding: 0 20px;
+    }
+
+    .right-intro-heading p {
+        text-align: center;
+        padding: 0 20px 20px 0;
     }
 }
 
@@ -391,50 +408,21 @@ textarea {
     #dub-intro,
     #dub-form {
         width: 90%;
-        height: 700px;
         margin: 0 auto;
+    }
+
+    #dub-form {
+        height: 700px;
+    }
+
+    #dub-intro {
+        height: 800px;
     }
 
     .right-intro-heading,
     .contact-heading {
         width: inherit;
     }
-
-    /* .right-intro-heading h2,
-    #times h3 {
-        width: 100%;
-        text-align: center;
-        margin: 0;
-    }
-
-    .contact-heading h3,
-    .contact-heading h4,
-    .contact-heading input,
-    .contact-heading textarea {
-        width: 100%;
-        text-align: center;
-        margin: 0;
-        padding: 0;
-    }
-
-    #left-contact {
-        width: 100%;
-        float: left;
-        padding: 0;
-    }
-
-    #right-contact {
-        width: 100%;
-        float: left;
-        padding-top: 40px;
-    }
-
-    .right-intro-heading p,
-    .contact-heading p,
-    .intro-heading p {
-        text-align: center;
-        padding: 0 20px;
-    } */
 
     hr {
         display: none;
@@ -460,7 +448,7 @@ textarea {
     }
 
     #dub-explore {
-        height: 1800px;
+        height: 1900px;
     }
 
     #tours div {

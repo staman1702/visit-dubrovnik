@@ -8,7 +8,7 @@ Visit Dubrovnik is a student-made website that helps you learn about, and hopefu
    
     Navigation
 
-    <h3>Home</h3>
+    ### Home
 
     Header section
 

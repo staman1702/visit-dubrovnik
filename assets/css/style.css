@@ -47,7 +47,7 @@ h3 {
 /* navigation links */
 
 #menu {
-    font-size: 120%;
+    font-size: 150%;
     letter-spacing: 3px;
 }
 
@@ -214,7 +214,7 @@ hr {
 
 table {
     width: 100%;
-    color: #fafafa;
+    color: black;
 }
 
 table,

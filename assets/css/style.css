@@ -11,6 +11,9 @@ body {
     font-weight: 300;
     color: #3a3a3a;
     background-color: aqua;
+    max-width: 1500px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 /*headings and logo */

@@ -2,7 +2,7 @@
 
 Visit Dubrovnik is a student-made website that helps you learn about, and hopefully visit the pearl of Adriatic - city of Dubrovnik! It is built as first milestone assignment with the Code Institute. Page targets people who love to travel and offers great range of activities available in Dubrovnik for people of all ages. Necessary information about Visit Dubrovnik is distributed through Index page (contains intro section and times section), Gallery (extensive visual representation of Dubrovnik) and Contact page (with contact form and detailed contact info).
 
-![Responsive](assets/media/images/readme_ss/am_i_responsive.webp)
+![Responsive](../visit-dubrovnik/assets/images/readme_ss/am_i_responsive.webp)
 
 ## Features
 

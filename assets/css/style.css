@@ -84,15 +84,15 @@ h3 {
     overflow: hidden;
 }
 
-#left-intro,
-#left-contact {
+.left-intro,
+.left-contact {
     padding-top: 20px;
     width: 50%;
     float: left;
 }
 
-#right-intro,
-#right-contact {
+.right-intro,
+.right-contact {
     padding-top: 20px;
     width: 50%;
     float: right;
@@ -194,11 +194,11 @@ hr {
     transform: scale(1.25);
 }
 
-.zoombox:hover #infotext {
+.zoombox:hover .infotext {
     display: block;
 }
 
-#infotext {
+.infotext {
     line-height: normal;
     margin-top: 20px;
     margin-left: 60px;
@@ -238,6 +238,7 @@ table td {
 
 footer {
     height: 150px;
+    text-align: center;
 }
 
 .social-networks {
@@ -336,8 +337,8 @@ textarea {
         margin: 0;
     }
 
-    #left-intro,
-    #right-intro {
+    .left-intro,
+    .right-intro {
         width: 100%;
         float: left;
         padding: 0;
@@ -376,13 +377,13 @@ textarea {
         padding: 0;
     }
 
-    #left-contact {
+    .left-contact {
         width: 100%;
         float: left;
         padding: 0;
     }
 
-    #right-contact {
+    .right-contact {
         width: 100%;
         float: left;
         padding-top: 40px;

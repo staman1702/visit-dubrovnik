@@ -4,11 +4,11 @@ Visit Dubrovnik is a student-made website that helps you learn about, and hopefu
 
 /_ place for amiresponsive ss _/
 
-##Features
-
+<h2>Features</h2>
+   
     Navigation
 
-    ###Home
+    <h3>Home</h3>
 
     Header section
 
@@ -16,18 +16,18 @@ Visit Dubrovnik is a student-made website that helps you learn about, and hopefu
 
     Dub-explore section
 
-    ###Gallery
+    <h3>Gallery</h3>
 
-    ###Contact
+    <h3>Contact</h3>
 
-##Testing
+<h2>Testing</h2>
 
     Bugs
 
     Validator Testing
 
-##Deployment
+<h2>Deployment</h2>
 
-##Credits
+<h2>Credits</h2>
 
 ---

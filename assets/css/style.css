@@ -135,7 +135,7 @@ hr {
 }
 
 #circle-cover-bg {
-    background: url('../images/dub-left.jpeg') no-repeat center center;
+    background: url('../images/dub-left.webp') no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
@@ -154,7 +154,7 @@ hr {
 }
 
 #walls {
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .4)), url('../images/old-town-750.png');
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .4)), url('../images/old-town-750.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -162,7 +162,7 @@ hr {
 }
 
 #kayak {
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .4)), url('../images/kayak-500.png');
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .4)), url('../images/kayak-500.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -170,7 +170,7 @@ hr {
 }
 
 #hike {
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .4)), url('../images/hike-500.png');
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .4)), url('../images/hike-500.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center bottom;

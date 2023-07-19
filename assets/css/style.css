@@ -443,6 +443,10 @@ textarea {
         column-gap: 4px;
     }
 
+    #logo {
+        font-size: 250%;
+    }
+
     #photos>img {
         width: 100%;
         margin-bottom: 2px;

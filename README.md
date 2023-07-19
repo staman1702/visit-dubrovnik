@@ -10,8 +10,6 @@ Visit Dubrovnik is a student-made website that helps you learn about, and hopefu
 
 ### Home
 
-    Header section
-
     Dub-intro section
 
     Dub-explore section

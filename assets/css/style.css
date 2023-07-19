@@ -16,19 +16,24 @@ body {
     margin-left: auto;
 }
 
+p {
+    line-height: 33px;
+}
+
+
 /*headings and logo */
 
 h1,
 h2 {
     font-family: 'Belanosima', sans-serif;
     text-transform: uppercase;
-    letter-spacing: 3px;
+    letter-spacing: 4px;
     color: #CC5500;
 }
 
 #logo {
     float: left;
-    font-size: 300%;
+    font-size: 400%;
 }
 
 /* navigation links */
@@ -181,6 +186,7 @@ hr {
 }
 
 #infotext {
+    line-height: normal;
     margin-top: 20px;
     margin-left: 60px;
     margin-right: 60px;
@@ -293,10 +299,16 @@ textarea {
 /* For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
 
-    #dub-intro {
-        width: 65%;
+    #dub-intro,
+    #dub-form {
+        width: 90%;
         height: 800px;
-        margin: 0;
+        margin: 0 auto;
+    }
+
+    .right-intro-heading,
+    .contact-heading {
+        width: inherit;
     }
 
     #dub-explore {
@@ -327,40 +339,16 @@ textarea {
     .right-intro-heading>hr {
         display: none;
     }
-}
 
-/* For medium screen sizes from 950px wide and down */
-@media screen and (max-width: 950px) {
-
-    #menu {
-        clear: left;
-        float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
-        line-height: 25px;
-    }
-
-    #dub-intro,
-    #dub-form {
-        width: 90%;
-        height: 700px;
-        margin: 0 auto;
-    }
-
-    .right-intro-heading,
-    .contact-heading {
-        width: inherit;
-    }
-
-    .right-intro-heading h1,
-    #times h2 {
+    .right-intro-heading h2,
+    #times h3 {
         width: 100%;
         text-align: center;
         margin: 0;
     }
 
-    .contact-heading h2,
     .contact-heading h3,
+    .contact-heading h4,
     .contact-heading input,
     .contact-heading textarea {
         width: 100%;
@@ -387,13 +375,66 @@ textarea {
         text-align: center;
         padding: 0 20px;
     }
+}
 
-    #tours>div {
-        width: 80%;
-        margin-left: 10%;
+/* For medium screen sizes from 950px wide and down */
+@media screen and (max-width: 950px) {
+
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    #dub-intro,
+    #dub-form {
+        width: 90%;
+        height: 700px;
+        margin: 0 auto;
+    }
+
+    .right-intro-heading,
+    .contact-heading {
+        width: inherit;
+    }
+
+    /* .right-intro-heading h2,
+    #times h3 {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+
+    .contact-heading h3,
+    .contact-heading h4,
+    .contact-heading input,
+    .contact-heading textarea {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    #left-contact {
+        width: 100%;
         float: left;
         padding: 0;
     }
+
+    #right-contact {
+        width: 100%;
+        float: left;
+        padding-top: 40px;
+    }
+
+    .right-intro-heading p,
+    .contact-heading p,
+    .intro-heading p {
+        text-align: center;
+        padding: 0 20px;
+    } */
 
     hr {
         display: none;
@@ -411,11 +452,6 @@ textarea {
     #photos>img {
         width: 100%;
         margin-bottom: 2px;
-    }
-
-    #dub-intro,
-    #dub-form {
-        height: 550px;
     }
 
     #circle-container {

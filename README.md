@@ -51,6 +51,12 @@ Visit Dubrovnik is a student-made website that helps you learn about, and hopefu
 - As a alternative to form, right section contains address and telephone number
 - When used on smaller devices the right section goes under the form, and both are centered
 
+### Footer
+
+- As a page footer I used links to social media
+- Links open in new tab when clicked and are displayed on my site using Font Awesome icons
+- Same footer is used for all three pages
+
 ## Testing
 
 - I tested that this page works on different browsers: Chrome, Edge, Firefox.
@@ -58,8 +64,6 @@ Visit Dubrovnik is a student-made website that helps you learn about, and hopefu
 - I have confirmed that all three pages serve their function, are readable and easy to navigate
 - I have confirmed that hover action in index.html works
 - I have confirmed that form in contact.html works, entries in all fields are required, email field only accepts an email, and submit button works
-
-### Bugs
 
 ### Validator Testing
 
@@ -75,7 +79,7 @@ Visit Dubrovnik is a student-made website that helps you learn about, and hopefu
 ## Credits
 
 - [Google Fonts:](https://fonts.google.com/) Font family "Alegreya" was used on all pages.
-  - [Font Awesome:](https://fontawesome.com/) Used in header, dub-explore section of index.html and contact.html headings to add icons.
+  - [Font Awesome:](https://fontawesome.com/) Used in header, footer, dub-explore section of index.html and contact.html headings to add icons.
   - [Am I Responsive:](http://ami.responsivedesign.is) Was used to check responsiveness of page.
   - [Pexels:](https://www.pexels.com/) Source of free images used in index.html and gallery.html.
   - [Free Convert:](https://www.freeconvert.com/) Converting PNG and JPEG images to WEBP.

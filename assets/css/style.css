@@ -263,6 +263,11 @@ input {
     font-family: 'Alegreya', sans-serif;
 }
 
+label {
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
 input[type=submit] {
     margin: 20px;
     padding: 0.75rem;
@@ -275,14 +280,14 @@ input[type=submit] {
 input[type=text],
 input[type=email] {
     height: 30px;
-    width: 30%;
+    width: 70%;
     padding-left: 10px;
     margin: 0 auto;
 }
 
 textarea {
     height: 150px;
-    width: 30%;
+    width: 70%;
     padding-top: 10px;
     padding-left: 10px;
     margin: 0 auto;
@@ -322,6 +327,7 @@ textarea {
     .right-intro-heading,
     .contact-heading {
         width: inherit;
+        margin: 0;
     }
 
     #dub-explore {
@@ -382,15 +388,14 @@ textarea {
         padding-top: 40px;
     }
 
-    .contact-heading p,
-    .intro-heading p {
+    .contact-heading p {
         text-align: center;
         padding: 0 20px;
     }
 
     .right-intro-heading p {
         text-align: center;
-        padding: 0 20px 20px 0;
+        padding-bottom: 20px;
     }
 }
 
@@ -412,7 +417,7 @@ textarea {
     }
 
     #dub-form {
-        height: 700px;
+        height: 720px;
     }
 
     #dub-intro {

@@ -12,6 +12,8 @@ Visit Dubrovnik is a student-made website that helps you learn about, and hopefu
 - Logo is styled with Font Awesome icon (fa-solid fa-umbrella-beach) and color of logo looks like a sandy beach
 - When clicked, logo takes user to index.html
 
+![Header](../visit-dubrovnik/assets/images/readme_ss/header.webp)
+
 ### Menu
 
 - Featured in the top right corner of the page, menu is composed of three links
@@ -29,6 +31,8 @@ Visit Dubrovnik is a student-made website that helps you learn about, and hopefu
 - Panoramic image of city of Dubrovnik is placed on the left side of section to captivate user visually
 - On the right side of the section user is given details about the city of Dubrovnik and a reason to continue scrolling
 
+![dub-intro](../visit-dubrovnik/assets/images/readme_ss/dub-intro.webp)
+
 #### Dub-explore section
 
 - This section gives details about what Visit Dubrovnik offers to users
@@ -36,12 +40,16 @@ Visit Dubrovnik is a student-made website that helps you learn about, and hopefu
 - When tours are hovered with mouse they reveal detailed information
 - Section is concluded with table (contains days and starting times for tours) and paragraph of important information for user
 
+![dub-explore](../visit-dubrovnik/assets/images/readme_ss/dub-explore.webp)
+
 ### Gallery
 
 - Gallery page is filled stunning images of the city and it's surrounding
 - Intent of Gallery is to visually pique users interest and improve User experience of the site
 - Images in gallery are divided into three columns
 - To match the viewing experience when viewed on very small screens, images are lined up into two columns
+
+![Gallery](../visit-dubrovnik/assets/images/readme_ss/gallery.webp)
 
 ### Contact
 
@@ -51,11 +59,15 @@ Visit Dubrovnik is a student-made website that helps you learn about, and hopefu
 - As a alternative to form, right section contains address and telephone number
 - When used on smaller devices the right section goes under the form, and both are centered
 
+![Contact](../visit-dubrovnik/assets/images/readme_ss/contact.webp)
+
 ### Footer
 
 - As a page footer I used links to social media
 - Links open in new tab when clicked and are displayed on my site using Font Awesome icons
 - Same footer is used for all three pages
+
+![Footer](assets/images/readme_ss/footer.webp)
 
 ## Testing
 
@@ -70,6 +82,8 @@ Visit Dubrovnik is a student-made website that helps you learn about, and hopefu
 - W3C HTML validator returns no errors
 - W3C CSS validator returns no errors
 - I used lighthouse in retools and it's suggestions to improve my page's performance
+
+![Lighthouse](/workspaces/visit-dubrovnik/assets/images/readme_ss/lighthouse.webp)
 
 ## Deployment
 

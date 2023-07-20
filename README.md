@@ -2,7 +2,7 @@
 
 Visit Dubrovnik is a student-made website that helps you learn about, and hopefully visit the pearl of Adriatic - city of Dubrovnik! It is built as first milestone assignment with the Code Institute. Page targets people who love to travel and offers great range of activities available in Dubrovnik for people of all ages. Necessary information about Visit Dubrovnik is distributed through Index page (contains intro section and times section), Gallery (extensive visual representation of Dubrovnik) and Contact page (with contact form and detailed contact info).
 
-![Responsive](../visit-dubrovnik/assets/images/readme_ss/am_i_responsive.webp)
+![Responsive](assets/images/readme_ss/am_i_responsive.webp)
 
 ## Features
 
@@ -12,7 +12,7 @@ Visit Dubrovnik is a student-made website that helps you learn about, and hopefu
 - Logo is styled with Font Awesome icon (fa-solid fa-umbrella-beach) and color of logo looks like a sandy beach
 - When clicked, logo takes user to index.html
 
-![Header](../visit-dubrovnik/assets/images/readme_ss/header.webp)
+![Header](assets/images/readme_ss/header.webp)
 
 ### Menu
 
@@ -31,7 +31,7 @@ Visit Dubrovnik is a student-made website that helps you learn about, and hopefu
 - Panoramic image of city of Dubrovnik is placed on the left side of section to captivate user visually
 - On the right side of the section user is given details about the city of Dubrovnik and a reason to continue scrolling
 
-![dub-intro](../visit-dubrovnik/assets/images/readme_ss/dub-intro.webp)
+![dub-intro](assets/images/readme_ss/dub-intro.webp)
 
 #### Dub-explore section
 
@@ -40,7 +40,7 @@ Visit Dubrovnik is a student-made website that helps you learn about, and hopefu
 - When tours are hovered with mouse they reveal detailed information
 - Section is concluded with table (contains days and starting times for tours) and paragraph of important information for user
 
-![dub-explore](../visit-dubrovnik/assets/images/readme_ss/dub-explore.webp)
+![dub-explore](assets/images/readme_ss/dub-explore.webp)
 
 ### Gallery
 
@@ -49,7 +49,7 @@ Visit Dubrovnik is a student-made website that helps you learn about, and hopefu
 - Images in gallery are divided into three columns
 - To match the viewing experience when viewed on very small screens, images are lined up into two columns
 
-![Gallery](../visit-dubrovnik/assets/images/readme_ss/gallery.webp)
+![Gallery](assets/images/readme_ss/gallery.webp)
 
 ### Contact
 
@@ -59,7 +59,7 @@ Visit Dubrovnik is a student-made website that helps you learn about, and hopefu
 - As a alternative to form, right section contains address and telephone number
 - When used on smaller devices the right section goes under the form, and both are centered
 
-![Contact](../visit-dubrovnik/assets/images/readme_ss/contact.webp)
+![Contact](assets/images/readme_ss/contact.webp)
 
 ### Footer
 
@@ -83,7 +83,7 @@ Visit Dubrovnik is a student-made website that helps you learn about, and hopefu
 - W3C CSS validator returns no errors
 - I used lighthouse in retools and it's suggestions to improve my page's performance
 
-![Lighthouse](/workspaces/visit-dubrovnik/assets/images/readme_ss/lighthouse.webp)
+![Lighthouse](assets/images/readme_ss/lighthouse.webp)
 
 ## Deployment
 
